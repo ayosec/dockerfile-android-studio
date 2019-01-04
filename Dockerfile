@@ -2,7 +2,7 @@ FROM debian:sid
 
 ARG UID=1000
 
-ARG PACKAGE_URL=https://dl.google.com/dl/android/studio/ide-zips/3.0.0.18/android-studio-ide-171.4408382-linux.zip
+ARG PACKAGE_URL=https://dl.google.com/dl/android/studio/ide-zips/3.2.1.0/android-studio-ide-181.5056338-linux.zip
 
 # Base system
 

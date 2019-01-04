@@ -2,7 +2,7 @@
 
 ## Build
 
-    $ docker build -t androidstudio:3.0 .
+    $ docker build -t androidstudio:3.2 .
 
 ## Usage
 
@@ -16,7 +16,7 @@ Launch IDE:
         -e DISPLAY=$DISPLAY                                    \
         -v /tmp/.X11-unix:/tmp/.X11-unix                       \
         -v $HOME/.androidstudio/home_container:/home/developer \
-        androidstudio:3.0
+        androidstudio:3.2
 
 Add `-v /dev/bus/usb:/dev/bus/usb` to access USB devices.
 
